@@ -23,8 +23,8 @@ colour(e,green).
 red(red).
 green(green).
 
-a:-
- Pos = [
+:-
+  Pos = [
     target(b),
     target(c)
   ],
@@ -34,12 +34,3 @@ a:-
     target(e)
   ],
   learn(Pos,Neg).
-
-%% body_pred(mother/2).
-%% body_pred(father/2).
-
-%% body_pred(shoe/1).
-
-%% %% metarules
-%% metarule([P,Q], [P,A,B], [[Q,A,B]]).
-%% metarule([P,Q,R], [P,A,B], [[Q,A,C],[R,C,B]]).
